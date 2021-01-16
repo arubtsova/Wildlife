@@ -1,13 +1,25 @@
 
 
 .header{
-    background: grey url(img\header.png);
+    background: url(img/header.png);
+    width: 1440px;
+    height: 780px;
+    left: 0px;
+    top: 0px;
 }
 
 .latest-articles{
-    background: gray;
+    background: #CCCCCC;
+    width: 1440px;
+    height: 1368px;
+    left: 0px;
+    top: 780px
 }
 
 .footer{
-    background: gray;
+    background: url(img/footer.png);
+    width: 1440px;
+    height: 360px;
+    left: 0px;
+    top: 2148px;
 }
