@@ -18,6 +18,81 @@
     top: 780px
 }
 
+.latest-articles__title-wrap{
+    position: absolute;
+    width: 324px;
+    height: 72px;
+    left: 558px;
+    top: 0px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+
+    text-align: center;
+
+    color: #333333;
+
+}
+
+.latest-articles__imgs{
+    
+
+}
+
+.latest-articles__imgs-leftarrow{
+    position: absolute;
+    top: 500px;
+    left: 100px;
+}
+
+.latest-articles__imgs-moose{
+    position: absolute;
+    top: 350px;
+    width: 300px;
+    height: 360px;
+    left: 190px;
+
+    border-radius: 0px;
+
+}
+
+.latest-articles__imgs-squirrel{
+    position: absolute;
+    top: 350px;
+    width: 300px;
+    height: 360px;
+    left: 560px;
+
+
+
+
+}
+
+.latest-articles__imgs-bird{
+    border-radius: 0px;
+    position: absolute;
+    top: 350px;
+    width: 300px;
+    height: 360px;
+    left: 930px;
+
+    border-radius: 0px;
+}
+
+.latest-articles__imgs-rightarrow{
+    position: absolute;
+    top: 500px;
+    left: 1290px;
+}
+
+
+
+
+
+
 .footer{
     background: url(img/footer.png);
     position: absolute;
