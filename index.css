@@ -37,10 +37,6 @@
 
 }
 
-.latest-articles__imgs{
-    
-
-}
 
 .latest-articles__imgs-leftarrow{
     position: absolute;
@@ -66,9 +62,6 @@
     height: 360px;
     left: 560px;
 
-
-
-
 }
 
 .latest-articles__imgs-bird{
@@ -80,18 +73,15 @@
     left: 930px;
 
     border-radius: 0px;
+
 }
 
 .latest-articles__imgs-rightarrow{
     position: absolute;
     top: 500px;
     left: 1290px;
+
 }
-
-
-
-
-
 
 .footer{
     background: url(img/footer.png);
@@ -100,4 +90,5 @@
     height: 360px;
     left: 0px;
     top: 2148px;
+
 }
