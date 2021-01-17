@@ -18,12 +18,14 @@
     top: 780px
 }
 
+
+
 .latest-articles__title-wrap{
     position: absolute;
     width: 324px;
     height: 72px;
     left: 558px;
-    top: 0px;
+    top: 100px;
 
     font-family: Open Sans;
     font-style: normal;
@@ -37,6 +39,25 @@
 
 }
 
+.latest-articles__text-top{
+    position: absolute;
+width: 332px;
+height: 36px;
+left: 554px;
+top: 200px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+
+
+text-align: center;
+
+color: #666666;
+
+}
 
 .latest-articles__imgs-leftarrow{
     position: absolute;
@@ -80,6 +101,67 @@
     position: absolute;
     top: 500px;
     left: 1290px;
+
+}
+
+.latest-articles__text-bottom{
+    position: absolute;
+width: 526px;
+height: 41px;
+left: 457px;
+top: 900px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 27px;
+line-height: 40px;
+
+
+text-align: center;
+
+color: #333333;
+}
+
+.latest-articles__get-notified{
+    position: absolute;
+    width: 510px;
+    height: 60px;
+    left: 400px;
+    top: 1849px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 60px;
+
+
+
+    color: #666666;
+}
+
+.latest-articles__input{
+    position: absolute;
+    width: 400px;
+    height: 32px;
+    left: 70px;
+    top: 0px;
+    background: #CCCCCC;  
+     
+}
+
+.latest-articles__button-send{
+    position: absolute;
+    color: #CCCCCC;
+    width: 100px;
+    height: 38px;
+    left: 480px;
+    top: 0px;
+
+    background: #CD6326;
+    
+
 
 }
 
