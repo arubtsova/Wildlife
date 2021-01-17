@@ -9,6 +9,154 @@
     top: 0px;
 }
 
+
+.header__symbol-top{
+    position: absolute;
+    left: 100px;
+    right: 55px;
+    top: 20px;
+    
+    
+}
+
+.header__title-wildlife{
+    position: absolute;
+    width: 155px;
+    height: 60px;
+    left: 180px;
+    top: 0px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 60px;
+
+
+    text-transform: uppercase;
+
+    color: #F7F7F7;
+}
+
+.header__img-blog{
+    position: absolute;
+    width: 50px;
+    height: 60px;
+    left: 840px;
+    top: 20px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 60px;
+
+
+
+    color: #F7F7F7;
+
+}
+
+
+.header__img-contacts{
+    position: absolute;
+    width: 96px;
+    height: 60px;
+    left: 951px;
+    top: 20px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 60px;
+
+
+
+    color: #F7F7F7;
+}
+
+.header__img-searchicon{
+    position: absolute;
+    left: 1100px;
+    right: 20px;
+    top: 35px;
+
+}
+
+.header__botton-signin{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 1200px;
+    top: 25px;
+
+    font-family: Open Sans;
+    color: #F7F7F7;
+    background: none;
+    font-size: 23px;
+
+    border: 2px solid #CD6326;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+
+.survival__title-surv{
+    position: absolute;
+    width: 199px;
+    height: 72px;
+    left: 120px;
+    top: 200px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+
+
+    letter-spacing: 2px;
+
+    color: #CD6326;
+}
+
+.survival__button-donate{
+
+    position: absolute;
+width: 160px;
+height: 60px;
+left: 120px;
+top: 480px;
+
+font-family: Roboto;
+font-size: 23px;
+
+background: #CD6326;
+border-radius: 5px;
+
+}
+
+
+
+.survival__text-help{
+    position: absolute;
+    width: 274px;
+    height: 108px;
+    left: 120px;
+    top: 323px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+
+
+
+    color: #F7F7F7;
+}
+
 .latest-articles{
     background: #CCCCCC;
     position: absolute;
@@ -41,21 +189,21 @@
 
 .latest-articles__text-top{
     position: absolute;
-width: 332px;
-height: 36px;
-left: 554px;
-top: 200px;
+    width: 332px;
+    height: 36px;
+    left: 554px;
+    top: 200px;
 
-font-family: Open Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 36px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
 
 
-text-align: center;
+    text-align: center;
 
-color: #666666;
+    color: #666666;
 
 }
 
@@ -106,21 +254,21 @@ color: #666666;
 
 .latest-articles__text-bottom{
     position: absolute;
-width: 526px;
-height: 41px;
-left: 457px;
-top: 900px;
+    width: 526px;
+    height: 41px;
+    left: 457px;
+    top: 900px;
 
-font-family: Open Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 27px;
-line-height: 40px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 40px;
 
 
-text-align: center;
+    text-align: center;
 
-color: #333333;
+    color: #333333;
 }
 
 .latest-articles__get-notified{
@@ -144,7 +292,7 @@ color: #333333;
 .latest-articles__input{
     position: absolute;
     width: 400px;
-    height: 32px;
+    height: 36px;
     left: 70px;
     top: 0px;
     background: #CCCCCC;  
@@ -154,12 +302,15 @@ color: #333333;
 .latest-articles__button-send{
     position: absolute;
     color: #CCCCCC;
-    width: 100px;
-    height: 38px;
-    left: 480px;
+    width: 104px;
+    height: 42px;
+    left: 478px;
     top: 0px;
+    font-family: Open Sans;
+    font-size: 24px;
 
     background: #CD6326;
+    border-radius: 0px 5px 5px 0px;
     
 
 
