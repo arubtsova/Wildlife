@@ -7,19 +7,18 @@
     height: 780px;
     left: 0px;
     top: 0px;
+
 }
 
 
 .header__symbol-top{
     position: absolute;
     left: 100px;
-    right: 55px;
-    top: 20px;
-    
+    top: 30px;
     
 }
 
-.header__title-wildlife{
+.header__title-top{
     position: absolute;
     width: 155px;
     height: 60px;
@@ -31,7 +30,6 @@
     font-weight: normal;
     font-size: 32px;
     line-height: 60px;
-
 
     text-transform: uppercase;
 
@@ -51,8 +49,6 @@
     font-size: 24px;
     line-height: 60px;
 
-
-
     color: #F7F7F7;
 
 }
@@ -71,9 +67,8 @@
     font-size: 23px;
     line-height: 60px;
 
-
-
     color: #F7F7F7;
+
 }
 
 .header__img-searchicon{
@@ -99,6 +94,7 @@
     border: 2px solid #CD6326;
     box-sizing: border-box;
     border-radius: 5px;
+
 }
 
 
@@ -115,7 +111,6 @@
     font-size: 48px;
     line-height: 72px;
 
-
     letter-spacing: 2px;
 
     color: #CD6326;
@@ -124,20 +119,18 @@
 .survival__button-donate{
 
     position: absolute;
-width: 160px;
-height: 60px;
-left: 120px;
-top: 480px;
+    width: 160px;
+    height: 60px;
+    left: 120px;
+    top: 480px;
 
-font-family: Roboto;
-font-size: 23px;
+    font-family: Roboto;
+    font-size: 23px;
 
-background: #CD6326;
-border-radius: 5px;
+    background: #CD6326;
+    border-radius: 5px;
 
 }
-
-
 
 .survival__text-help{
     position: absolute;
@@ -155,6 +148,7 @@ border-radius: 5px;
 
 
     color: #F7F7F7;
+
 }
 
 .latest-articles{
@@ -200,7 +194,6 @@ border-radius: 5px;
     font-size: 24px;
     line-height: 36px;
 
-
     text-align: center;
 
     color: #666666;
@@ -211,6 +204,7 @@ border-radius: 5px;
     position: absolute;
     top: 500px;
     left: 100px;
+
 }
 
 .latest-articles__imgs-moose{
@@ -265,10 +259,10 @@ border-radius: 5px;
     font-size: 27px;
     line-height: 40px;
 
-
     text-align: center;
 
     color: #333333;
+
 }
 
 .latest-articles__get-notified{
@@ -284,9 +278,8 @@ border-radius: 5px;
     font-size: 24px;
     line-height: 60px;
 
-
-
     color: #666666;
+
 }
 
 .latest-articles__input{
@@ -296,6 +289,10 @@ border-radius: 5px;
     left: 70px;
     top: 0px;
     background: #CCCCCC;  
+
+    font-family: Open Sans;
+    font-size: 24px;
+    color: #666666;
      
 }
 
@@ -312,8 +309,6 @@ border-radius: 5px;
     background: #CD6326;
     border-radius: 0px 5px 5px 0px;
     
-
-
 }
 
 .footer{
@@ -324,4 +319,128 @@ border-radius: 5px;
     left: 0px;
     top: 2148px;
 
+}
+
+.footer__symbol-button{
+    position: absolute;
+    left: 80px;
+    top: 170px
+  
+}
+
+.footer__title-button{
+    position: absolute;
+    width: 155px;
+    height: 60px;
+    left: 160px;
+    top: 140px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 60px;
+
+    text-transform: uppercase;
+
+    color: #F7F7F7;
+
+}
+
+.footer__img-articles{
+    position: absolute;
+    width: 80px;
+    height: 60px;
+    left: 480px;
+    top: 165px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 60px;
+    
+    color: #F7F7F7;
+
+}
+
+.footer__img-aboutus{
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    left: 646px;
+    top: 165px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 60px;
+
+    color: #F7F7F7;
+
+}
+
+.footer__img-learnmore{
+    position: absolute;
+    width: 129px;
+    height: 60px;
+    left: 831px;
+    top: 165px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 60px;
+
+    color: #F7F7F7;
+
+}
+
+.footer__img-facebook{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1080px;
+    top: 165px;
+    
+    background: #F7F7F7;
+    border-radius: 20px;
+
+}
+
+.footer__img-inst{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1147px;
+    top: 165px;
+    
+    background: #F7F7F7;
+    border-radius: 20px;
+
+}
+
+.footer__img-p{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1213px;
+    top: 165px;
+    
+    background: #F7F7F7;
+    border-radius: 20px;
+
+}
+
+.footer__img-telegram{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1280px;
+    top: 165px;
+
+    background: #F7F7F7;
+    border-radius: 20px;
 }
