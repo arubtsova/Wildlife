@@ -1,12 +1,16 @@
-
-
-.header{
+.wrapper{
     background: url(img/header.png);
-    position: absolute;
+    display: flex;
     width: 1440px;
     height: 780px;
     left: 0px;
     top: 0px;
+
+}
+
+.header{
+    
+      
 
 }
 
@@ -135,17 +139,17 @@
 
 .survival__text-help{
     position: absolute;
-    width: 274px;
+    width: 300px;
     height: 108px;
     left: 120px;
     top: 323px;
 
-    font-family: Open Sans;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
+    font-weight:normal;
+    font-size: 16px;
     line-height: 27px;
-
+    letter-spacing: 2px;
 
 
     color: #F7F7F7;
