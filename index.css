@@ -129,6 +129,7 @@
 
     background: #CD6326;
     border-radius: 5px;
+    border: 2px solid #CD6326;
 
 }
 
@@ -284,8 +285,8 @@
 
 .latest-articles__input{
     position: absolute;
-    width: 400px;
-    height: 36px;
+    width: 402px;
+    height: 38px;
     left: 70px;
     top: 0px;
     background: #CCCCCC;  
@@ -293,6 +294,7 @@
     font-family: Open Sans;
     font-size: 24px;
     color: #666666;
+    border: 1px solid gray;
      
 }
 
@@ -308,6 +310,7 @@
 
     background: #CD6326;
     border-radius: 0px 5px 5px 0px;
+    border: 2px solid #CD6326;
     
 }
 
