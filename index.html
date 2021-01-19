@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>arubtsova_wildlife</title>
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="index.css">
 </head>
+
+
 <body>
     <div class="wrapper">
         <header class="header">
-            <nav class="header__nav-top">
-                <img class="header__symbol-top" src="img\symbol.svg">
-                    <h1 class="header__title-top"> WILDLIFE</h1>
+            <img class="header__symbol-top" src="img\symbol.svg">
+                <h1 class="header__title-top"> WILDLIFE</h1>
+                    <nav>
                         <ul class="header__menu">
                             <li><a href=""><img class="header__img-blog" src="img\Blog.svg"></a></li>
                             <li><a href=""><img class="header__img-contacts" src="img\Contacts.svg"></a></li>
@@ -22,21 +25,21 @@
 
         </header>
 
+
+
     <div class="survival">
-        <h1 class="survival__title-surv">Survival</h1>
-            <p class="survival__text-help">What this means is that we exist help protect our environment and do in numbers of ways. You can save the planet by donation.</p>
+        <h1 class="survival__title">Survival</h1>
+            <p class="survival__text">What this means is that we exist help protect our environment and do in numbers of ways. You can save the planet by donation.</p>
         
-                <button class="survival__button-donate"><img src="img\Donate.svg"></button>
+                <button class="survival__button"><img src="img\Donate.svg"></button>
     </div>
 </div>
 
-
+<div class="block-grey">
         <div class="latest-articles">
-            <div class="latest-articles__title">
-                <h1 class="latest-articles__title-wrap">Latest articles</h1>
-            </div>
+                <h1 class="latest-articles__title">Latest articles</h1>
 
-            <p class="latest-articles__text-top">Breaking news from the wild</p>
+                    <p class="latest-articles__text-top">Breaking news from the wild</p>
 
                 <div class="latest-articles__imgs">
                     <img class="latest-articles__imgs-leftarrow" src="img\left-arrow.png">
@@ -45,32 +48,36 @@
                     <img class="latest-articles__imgs-bird" src="img\latest-articles_bird.png">
                     <img class="latest-articles__imgs-rightarrow" src="img\right-arrow.png">
                 </div>
-                 
-            <p class="latest-articles__text-bottom">Get notified about new amazing articles</p>
 
-                    
+        <div class="get-notified">
+            <h3 class="latest-articles__text-bottom">Get notified about new amazing articles</h3>       
         </div>
 
-        
-      <form class="latest-articles__get-notified">
-          <input class="latest-articles__input" type="text" value="Email">
-          <button class="latest-articles__button-send">Send</button>
-        </form>
+        <div class="get-notified__registr">
+            <form class="get-notified__form">
+            <input class="get-notified__input" type="text" value="Email">
+            <button class="get-notified__button">Send</button>
+            </form>
+        </div>
+    </div>
     
-    <footer class="footer">
-        <nav>
-            <img class="footer__symbol-button" src="img\symbol.svg">
-            <h1 class="footer__title-button"> WILDLIFE</h1>
-                <ul class="footer__nav">
-                    <li><a href=""><img class="footer__img-articles" src="img\Articles.svg"></a></li>
-                    <li><a href=""><img class="footer__img-aboutus" src="img\About-us.svg"></a></li>
-                    <li><a href=""><img class="footer__img-learnmore" src="img\Learn-more.svg"></a></li>
-                    <li><a href=""><img class="footer__img-facebook" src="img\facebook.svg"></a></li>
-                    <li><a href=""><img class="footer__img-inst" src="img\inst.svg"></a></li>
-                    <li><a href=""><img class="footer__img-p" src="img\p.svg"></a></li>
-                    <li><a href=""><img class="footer__img-telegram" src="img\telegram.svg"></a></li>
-                </ul>
-        </nav>
-    </footer>
+        
+            <footer class="footer">
+                <img class="footer__symbol-button" src="img\symbol.svg">
+                    <h1 class="footer__title-button"> WILDLIFE</h1>
+                        <nav>
+                            <ul class="footer__menu">
+                                <li><a href=""><img class="footer__img-articles" src="img\Articles.svg"></a></li>
+                                <li><a href=""><img class="footer__img-aboutus" src="img\About-us.svg"></a></li>
+                                <li><a href=""><img class="footer__img-learnmore" src="img\Learn-more.svg"></a></li>
+                                <li><a href=""><img class="footer__img-facebook" src="img\facebook.svg"></a></li>
+                                <li><a href=""><img class="footer__img-inst" src="img\inst.svg"></a></li>
+                                <li><a href=""><img class="footer__img-p" src="img\p.svg"></a></li>
+                                <li><a href=""><img class="footer__img-telegram" src="img\telegram.svg"></a></li>
+                            </ul>
+                </nav>
+            </footer>
+
+    
 </body>
 </html>
