@@ -1,4 +1,5 @@
 .wrapper-header{
+    background-color: #02160b;
     background: url(img/header.png);
     display: flex;
     flex-direction: column;
@@ -145,21 +146,127 @@
 
 
 .block-grey{
+    background-color: #cccccc;
     display: flex;
     flex-direction: column;
-    background: #CCCCCC;
     width: 1440px;
     height: 1368px;
     
 }
 
 
-.footer{
+
+.latest-articles__text-structure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.latest-articles__title{
+    display: flex;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+
+    color: #333333;
+
+}
+
+
+.latest-articles__text-top{
+    display: flex;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 1px;
+
+    color: #666666;
+}
+
+.latest-articles__imgs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.latest-articles__imgs-leftarrow{
+  
+}
+
+.latest-articles__imgs-moose{
+    width: 300px;
+    height: 360px;
+    margin-left: 75px;
+}
+
+.latest-articles__imgs-squirrel{
+    width: 300px;
+    height: 360px;
+    margin-left: 75px;
+}
+
+.latest-articles__imgs-bird{
+    width: 300px;
+    height: 360px;
+    margin-left: 75px;
+}
+
+.latest-articles__imgs-rightarrow{
+    margin-left: 75px;
+}
+
+
+.get-notified{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.latest-articles__text-bottom{
+    display: flex;
+    flex-direction: row;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 40px;
+
+    margin-top: 200px;
+
+    color: #333333;
+}
+
+.latest-articles__emailform{
+
+}
+
+
+
+
+.wrapper-footer{
+    background-color: #181617;
     background: url(img/footer.png);
     display:flex;
-    flex-direction: column;
     width: 1440px;
     height: 360px;
+}
+.footer{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    align-items: flex-end;
+    justify-content: space-between;
+    
    
 }
 
