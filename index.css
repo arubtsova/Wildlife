@@ -85,6 +85,8 @@
 
     color: aliceblue;
 
+    
+  
 }
 
 
@@ -245,10 +247,43 @@
     color: #333333;
 }
 
-.latest-articles__emailform{
-
+.get-notified__form{
+    display: flex;
+    flex-direction: row;
 }
 
+.get-notified__input{
+    width: 470px;
+    height: 45px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 60px;
+
+    color: #666666;
+
+    background-color: #cccccc;;
+    
+}
+
+.get-notified__button{
+    width: 100px;
+    height: 51px;
+    margin-bottom: 270px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    
+    text-align: center;
+    color: #F7F7F7;
+
+    background: #CD6326;
+    border-radius: 0px 5px 5px 0px;
+    
+}
 
 
 
@@ -260,13 +295,55 @@
     height: 360px;
 }
 .footer{
-    display:flex;
+    display: flex;
     flex-direction: row;
-    align-items: flex-end;
-    justify-content: space-between;
-    align-items: flex-end;
-    justify-content: space-between;
-    
+    align-items: center;
+    margin-left: 70px;
+}
    
+
+.footer__symbol-button{
+    
+    color: aliceblue;
 }
 
+.footer__title-button{
+    
+    color: aliceblue;
+    margin-left: 15px;
+
+}
+
+.footer__menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer__img-articles{
+margin-left: 150px;
+}
+
+.footer__img-aboutus{
+    margin-left: 50px;
+}
+
+.footer__img-learnmore{
+    margin-left: 50px;
+}
+
+.footer__img-facebook{
+    margin-left: 150px;
+}
+
+.footer__img-inst{
+    margin-left: 35px;
+}
+
+.footer__img-p{
+    margin-left: 35px;
+}
+
+.footer__img-telegram{
+    margin-left: 35px;
+}
