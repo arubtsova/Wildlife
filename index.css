@@ -22,17 +22,12 @@
 }
 
 .header__symbol-top{
-    display: flex;
-    flex-direction: row;
     margin-left: 70px;
- 
     color: aliceblue;
 }
 
 
 .header__title-top{
-    display: flex;
-    flex-direction: row;
     margin-top: 35px;
     margin-left: 15px;
     color: aliceblue;
@@ -52,6 +47,9 @@
     list-style-type: none;
 }
 
+.header__menu__item-links{
+    text-decoration: none;
+}
 
 .header__blog{
     margin-right: 75px;
@@ -77,7 +75,6 @@
 
     color: #F7F7F7;
     
-
 }
 
 
@@ -105,8 +102,7 @@
 
     color: aliceblue;
 
-    
-  
+
 }
 
 
@@ -118,7 +114,6 @@
 
 
 .survival__title{
-    display: flex;
     width: 199px;
     height: 72px;
     font-family: Open Sans;
@@ -137,7 +132,6 @@
 
 
 .survival__text{
-    display: flex;
     width: 274px;
     height: 108px;
     font-family: Open Sans;
@@ -182,6 +176,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 100px;
+
 }
 
 .latest-articles__title{
@@ -207,6 +202,7 @@
     letter-spacing: 1px;
 
     color: #666666;
+
 }
 
 .latest-articles__imgs{
@@ -215,32 +211,35 @@
     align-items: center;
     justify-content: center;
     margin-top: 100px;
+
 }
 
-.latest-articles__imgs-leftarrow{
-  
-}
+
 
 .latest-articles__imgs-moose{
     width: 300px;
     height: 360px;
     margin-left: 75px;
+
 }
 
 .latest-articles__imgs-squirrel{
     width: 300px;
     height: 360px;
     margin-left: 75px;
+
 }
 
 .latest-articles__imgs-bird{
     width: 300px;
     height: 360px;
     margin-left: 75px;
+
 }
 
 .latest-articles__imgs-rightarrow{
     margin-left: 75px;
+
 }
 
 
@@ -322,12 +321,14 @@
     flex-direction: row;
     align-items: center;
     margin-left: 70px;
+
 }
    
 
 .footer__symbol-button{
     
     color: aliceblue;
+
 }
 
 .footer__title-button{
@@ -341,10 +342,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+
 }
 
 .foorer__menu__item{
 list-style-type: none;
+
 }
 
 
@@ -369,6 +372,7 @@ color: #F7F7F7;
     line-height: 60px;
 
     color: #F7F7F7;
+
 }
 
 .footer__learn-more{
@@ -380,20 +384,25 @@ color: #F7F7F7;
     line-height: 60px;
 
     color: #F7F7F7;
+
 }
 
 .footer__img-facebook{
     margin-left: 150px;
+
 }
 
 .footer__img-inst{
     margin-left: 35px;
+
 }
 
 .footer__img-p{
     margin-left: 35px;
+
 }
 
 .footer__img-telegram{
     margin-left: 35px;
+
 }
