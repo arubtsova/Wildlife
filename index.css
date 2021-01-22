@@ -204,6 +204,55 @@
     color: #666666;
 
 }
+.latest-articles__titles{
+    position: absolute;
+
+}
+
+.latest-articles__titles-deer{
+    position: absolute;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 36px;
+
+    left: 334px;
+    top: 800px;
+
+    text-align: center;
+
+    color: #F7F7F7;
+
+}
+
+
+.latest-articles__titles-squirrel{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 36px;
+
+    text-align: center;
+
+    color: #F7F7F7;
+
+}
+
+.latest-articles__titles-bird{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 36px;
+
+    text-align: center;
+
+    color: #F7F7F7;
+
+
+}
 
 .latest-articles__imgs{
     display: flex;
