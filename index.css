@@ -214,11 +214,13 @@
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 23px;
+    font-size: 22px;
     line-height: 36px;
 
-    left: 334px;
-    top: 800px;
+    width: 220px;
+
+    top: 320px;
+    left: 240px;
 
     text-align: center;
 
@@ -228,11 +230,17 @@
 
 
 .latest-articles__titles-squirrel{
+    position: absolute;
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 23px;
+    font-size: 22px;
     line-height: 36px;
+
+    width: 180px;
+
+    top: 320px;
+    left: 640px;
 
     text-align: center;
 
@@ -241,11 +249,17 @@
 }
 
 .latest-articles__titles-bird{
+    position: absolute;
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 23px;
+    font-size: 22px;
     line-height: 36px;
+
+    width: 150px;
+
+    top: 320px;
+    left: 1025px;
 
     text-align: center;
 
@@ -349,6 +363,7 @@
     text-align: center;
     color: #F7F7F7;
 
+    border: aliceblue;
     background: #CD6326;
     border-radius: 0px 5px 5px 0px;
     
@@ -375,13 +390,11 @@
    
 
 .footer__symbol-button{
-    
     color: aliceblue;
 
 }
 
 .footer__title-button{
-    
     color: aliceblue;
     margin-left: 15px;
 
