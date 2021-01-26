@@ -156,6 +156,8 @@
     width: 160px;
     height: 60px;
 
+    border: #CD6326;
+
     margin-left: 75px;
 
 }
@@ -341,11 +343,7 @@
 
     font-family: Open Sans;
     font-style: normal;
-    font-weight: normal;
     font-size: 22px;
-    line-height: 60px;
-
-    color: #666666;
 
     background-color: #cccccc;;
     
@@ -355,15 +353,11 @@
     width: 100px;
     height: 51px;
     margin-bottom: 270px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 22px;
     
-    text-align: center;
     color: #F7F7F7;
 
-    border: aliceblue;
+    border:#CD6326;
     background: #CD6326;
     border-radius: 0px 5px 5px 0px;
     
@@ -468,3 +462,24 @@ color: #F7F7F7;
     margin-left: 35px;
 
 }
+
+.survival__button:link {
+    color: #0000d0; 
+    padding: 2px; 
+   }
+.survival__button:hover {
+    background: #786b59; 
+    color: #ffe; 
+   } 
+
+.get-notified__button:link{
+    color: #0000d0; 
+    padding: 2px; 
+}
+.get-notified__button:hover{
+    background: #786b59; 
+    color: #ffe; 
+}
+
+
+
