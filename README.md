@@ -1,1 +1,1 @@
-https://arubtsova.github.io/wildlife/index.md
+https://arubtsova.github.io/Wildlife/index.html
