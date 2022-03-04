@@ -1,3 +1,4 @@
+
 .wrapper-header{
     background-color: #02160b;
     background: url(img/header.png);
@@ -171,6 +172,7 @@
     height: 1368px;
     
 }
+
 
 
 .latest-articles__text-structure{
@@ -369,7 +371,7 @@
     background-color: #181617;
     background: url(img/footer.png);
     display:flex;
-    width: 1440px;
+    width: 100%;
     height: 360px;
 
 }
