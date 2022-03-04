@@ -1,3 +1,3 @@
 # Wildlife
-https://github.com/arubtsova/Wildlife.git
+https://github.com/arubtsova/Wildlife/index.html
 
